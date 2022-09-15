@@ -1,0 +1,70 @@
+body {
+    background: #272643;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: aliceblue;
+}
+
+.header {
+    text-align: center;
+    padding: 12px;
+    background-color: #bae8e8;
+    color: #2c698d;
+    border-bottom: 12px solid aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+.picture {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+
+img {
+    width: 100%;
+    max-width: 600px;
+    height: 400px;
+    object-fit: cover;
+    border: 2px solid aliceblue;
+    border-radius: 20px;
+}
+
+.description {
+    margin: auto;
+    text-align: center;
+    width: 30vw;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.5vw;
+    padding-bottom: 1px;
+}
+
+.ingredients {
+    line-height: 1.5vw;
+    margin: auto;
+    text-align: center;
+    width: 25vw;
+}
+
+.steps {
+    width: 70vw;
+    line-height: 1.5vw;
+}
+
+ul {
+    list-style: none;
+    display: inline-block;
+    text-align: left;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h3.ingredients_h3 {
+    margin-bottom: 2px;
+}
